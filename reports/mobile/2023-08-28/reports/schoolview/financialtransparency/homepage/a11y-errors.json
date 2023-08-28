@@ -1,0 +1,129 @@
+[
+  {
+    "id": "label",
+    "title": "Form elements do not have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-259-INPUT",
+            "path": "1,HTML,1,BODY,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,FORM,0,DIV,0,DIV,0,SPAN,0,INPUT",
+            "selector": "div#the-basics > div.form-group > span.twitter-typeahead > input.typeaheadhp",
+            "boundingRect": {
+              "top": 180,
+              "bottom": 214,
+              "left": 75,
+              "right": 337,
+              "width": 262,
+              "height": 34
+            },
+            "snippet": "<input class=\"typeaheadhp form-control tt-hint\" type=\"search\" style=\"width: 100%; background: url(&quot;data:image/svg+xml;charset=utf8,%3Csvg id='L…&quot;);\" readonly=\"\" autocomplete=\"off\" spellcheck=\"false\" tabindex=\"-1\" dir=\"ltr\">",
+            "nodeLabel": "div#the-basics > div.form-group > span.twitter-typeahead > input.typeaheadhp",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-260-INPUT",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,FORM,0,DIV,0,DIV,0,SPAN,0,INPUT",
+            "selector": "div#the-basics > div.form-group > span.twitter-typeahead > input.typeaheadft",
+            "boundingRect": {
+              "top": 1218,
+              "bottom": 1253,
+              "left": 24,
+              "right": 403,
+              "width": 379,
+              "height": 34
+            },
+            "snippet": "<input class=\"typeaheadft form-control tt-hint\" type=\"search\" readonly=\"\" autocomplete=\"off\" spellcheck=\"false\" tabindex=\"-1\" dir=\"ltr\" style=\"position: absolute; top: 0px; left: 0px; border-color: transparent;\">",
+            "nodeLabel": "div#the-basics > div.form-group > span.twitter-typeahead > input.typeaheadft",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag412",
+          "wcag131",
+          "section508",
+          "section508.22.n",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "meta-viewport",
+    "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-225-META",
+            "path": "1,HTML,0,HEAD,13,META",
+            "selector": "head > meta",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<meta name=\"viewport\" content=\"initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width\">",
+            "nodeLabel": "head > meta",
+            "explanation": "Fix any of the following:\n  user-scalable=no on <meta> tag disables zooming on mobile devices"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "best-practice",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

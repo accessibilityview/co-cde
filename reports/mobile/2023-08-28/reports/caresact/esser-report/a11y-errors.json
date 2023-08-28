@@ -1,0 +1,756 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-203-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 1048,
+              "bottom": 1120,
+              "left": 12,
+              "right": 293,
+              "width": 281,
+              "height": 72
+            },
+            "snippet": "<u>",
+            "nodeLabel": "ESSER funds used for summer enrichment in Mancos",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-205-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 1410,
+              "bottom": 1526,
+              "left": 12,
+              "right": 396,
+              "width": 384,
+              "height": 116
+            },
+            "snippet": "<u>",
+            "nodeLabel": "Chief of Staff Scott Jones delivers update on CDE’s ESSER fund rollout to the B…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-206-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 1834,
+              "bottom": 1906,
+              "left": 12,
+              "right": 378,
+              "width": 366,
+              "height": 72
+            },
+            "snippet": "<u>",
+            "nodeLabel": "Holyoke uses ESSER money to focus on mental health needs",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-207-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 2231,
+              "bottom": 2347,
+              "left": 12,
+              "right": 395,
+              "width": 383,
+              "height": 116
+            },
+            "snippet": "<u>",
+            "nodeLabel": "Mathematics education grant boosts rural teacher development with ESSER III fun…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-208-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 2637,
+              "bottom": 2710,
+              "left": 12,
+              "right": 367,
+              "width": 355,
+              "height": 72
+            },
+            "snippet": "<u>",
+            "nodeLabel": "Poudre School District diversifies staff with Education Workforce Grant",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-209-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 3035,
+              "bottom": 3107,
+              "left": 12,
+              "right": 396,
+              "width": 384,
+              "height": 72
+            },
+            "snippet": "<u>",
+            "nodeLabel": "Jeffco uses $1.5 million in ESSER III funds for mental health services for stud…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-210-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 3425,
+              "bottom": 3498,
+              "left": 12,
+              "right": 388,
+              "width": 376,
+              "height": 72
+            },
+            "snippet": "<u>",
+            "nodeLabel": "Colorado's Katy Anthes explains how COVID relief funds are making an impact",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-211-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 3805,
+              "bottom": 3878,
+              "left": 12,
+              "right": 376,
+              "width": 364,
+              "height": 72
+            },
+            "snippet": "<u>",
+            "nodeLabel": "DPS uses high-impact tutoring grant to spur improvement",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-212-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 4196,
+              "bottom": 4268,
+              "left": 12,
+              "right": 388,
+              "width": 376,
+              "height": 72
+            },
+            "snippet": "<u>",
+            "nodeLabel": "Afterschool theater program uses ESSER funding",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-213-U",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,9,DIV,0,DIV,0,H2,0,A,0,H2,0,SMALL,0,U",
+            "selector": "a > h2 > small > u",
+            "boundingRect": {
+              "top": 4576,
+              "bottom": 4691,
+              "left": 12,
+              "right": 360,
+              "width": 348,
+              "height": 116
+            },
+            "snippet": "<u>",
+            "nodeLabel": "High Impact Tutoring Grant improves student performance at Fort Collins charter…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 16.9pt (22.5333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-204-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV",
+                  "selector": "body.html > div.main-container > div#cdemaincontent",
+                  "boundingRect": {
+                    "top": 591,
+                    "bottom": 6149,
+                    "left": 2,
+                    "right": 410,
+                    "width": 408,
+                    "height": 5558
+                  },
+                  "snippet": "<div id=\"cdemaincontent\">",
+                  "nodeLabel": "You are here\nHome » ESSER\n\nColorado ESSER Report: Elementary and Secondary Scho…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-214-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,IMG",
+            "selector": "ul > li#mn5 > a > img",
+            "boundingRect": {
+              "top": 443,
+              "bottom": 461,
+              "left": 153,
+              "right": 260,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<img src=\"/sites/default/files/pics/globalcontent/SchoolVIewLogo2019black-v4.png\">",
+            "nodeLabel": "ul > li#mn5 > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-15-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div#mainnav2 > ul > li#mn5 > a",
+            "boundingRect": {
+              "top": 436,
+              "bottom": 473,
+              "left": 3,
+              "right": 409,
+              "width": 406,
+              "height": 37
+            },
+            "snippet": "<a href=\"/schoolview\">",
+            "nodeLabel": "div#mainnav2 > ul > li#mn5 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-27-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 1269,
+              "bottom": 1269,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/ESSER_funds_Mancos\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-36-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 1692,
+              "bottom": 1692,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/ESSER_update_June2023\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-43-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 2090,
+              "bottom": 2090,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/BlogPostHolyoke\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-50-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 2496,
+              "bottom": 2496,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/BlogPostRegionalConnectionGrant\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-58-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,4,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 2894,
+              "bottom": 2894,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/BlogPoudreWorkforceGrant\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-65-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,5,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 3284,
+              "bottom": 3284,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/BlogPostJeffcoHazel\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-71-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,6,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 3664,
+              "bottom": 3664,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/BlogKatyVideo\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-77-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,7,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 4054,
+              "bottom": 4054,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/BlogDPSTutoring\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-85-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,8,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 4434,
+              "bottom": 4434,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/BlogTheaterSilCO\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-90-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,9,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,A",
+            "selector": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 4868,
+              "bottom": 4868,
+              "left": 226,
+              "right": 226,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/caresact/esser-report/detail/BlogAxis\">",
+            "nodeLabel": "div.rteindent1 > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 11
+  }
+]

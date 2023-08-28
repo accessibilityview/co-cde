@@ -1,0 +1,260 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-22-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,2,H3,0,A",
+            "selector": "div.col-sm-6 > div.well > h3.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 1154,
+              "bottom": 1188,
+              "left": 22,
+              "right": 389,
+              "width": 367,
+              "height": 34
+            },
+            "snippet": "<a class=\"btn btn-info btn-block\" href=\"/cdechart\" role=\"button\">",
+            "nodeLabel": "Visit Charter School Programs",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-26-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,DIV,2,H3,0,A",
+            "selector": "div.col-sm-6 > div.well > h3.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 1374,
+              "bottom": 1408,
+              "left": 22,
+              "right": 389,
+              "width": 367,
+              "height": 34
+            },
+            "snippet": "<a class=\"btn btn-info btn-block\" href=\"/onlinelearning\" role=\"button\">",
+            "nodeLabel": "Visit Online & Blended Learning",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-29-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV,2,H3,0,A",
+            "selector": "div.col-sm-4 > div.well > h3.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 1581,
+              "bottom": 1615,
+              "left": 22,
+              "right": 389,
+              "width": 367,
+              "height": 34
+            },
+            "snippet": "<a class=\"btn btn-info btn-block\" href=\"/choice/innovationschools\" role=\"button\">",
+            "nodeLabel": "Visit Innovation Schools",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-32-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,1,DIV,0,DIV,2,H3,0,A",
+            "selector": "div.col-sm-4 > div.well > h3.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 1778,
+              "bottom": 1812,
+              "left": 22,
+              "right": 389,
+              "width": 367,
+              "height": 34
+            },
+            "snippet": "<a class=\"btn btn-info btn-block\" href=\"/choice/homeschool\" role=\"button\">",
+            "nodeLabel": "Visit Home School",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-35-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,2,DIV,0,DIV,2,H3,0,A",
+            "selector": "div.col-sm-4 > div.well > h3.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 1976,
+              "bottom": 2010,
+              "left": 22,
+              "right": 389,
+              "width": 367,
+              "height": 34
+            },
+            "snippet": "<a class=\"btn btn-info btn-block\" href=\"/choice/nonpublic_index\" role=\"button\">",
+            "nodeLabel": "Visit Non-Public School",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-118-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,IMG",
+            "selector": "ul > li#mn5 > a > img",
+            "boundingRect": {
+              "top": 443,
+              "bottom": 461,
+              "left": 153,
+              "right": 260,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<img src=\"/sites/default/files/pics/globalcontent/SchoolVIewLogo2019black-v4.png\">",
+            "nodeLabel": "ul > li#mn5 > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-15-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div#mainnav2 > ul > li#mn5 > a",
+            "boundingRect": {
+              "top": 436,
+              "bottom": 473,
+              "left": 3,
+              "right": 409,
+              "width": 406,
+              "height": 37
+            },
+            "snippet": "<a href=\"/schoolview\">",
+            "nodeLabel": "div#mainnav2 > ul > li#mn5 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-18-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field-items > div.field-item > div.embed > a",
+            "boundingRect": {
+              "top": 736,
+              "bottom": 812,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 76
+            },
+            "snippet": "<a href=\"https://www.eventbrite.com/e/fall-2023-equity-convening-tickets-6795318871…\">",
+            "nodeLabel": "div.field-items > div.field-item > div.embed > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

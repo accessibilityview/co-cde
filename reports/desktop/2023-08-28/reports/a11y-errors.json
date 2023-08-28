@@ -1,0 +1,310 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-83-A",
+            "path": "1,HTML,1,BODY,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,P,0,A",
+            "selector": "div.row > div.col-sm-4 > p.rtecenter > a",
+            "boundingRect": {
+              "top": 2572,
+              "bottom": 2589,
+              "left": 175,
+              "right": 314,
+              "width": 140,
+              "height": 17
+            },
+            "snippet": "<a data-tracklink=\"y\" data-tracklinkval=\"/communications/track-homepage-news-block\" href=\"/communications/news_and_events\">",
+            "nodeLabel": "View More News",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #76756d, background color: #ebeced, font size: 10.0pt (13.3px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-161-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div#mini-panel-footer_mini_panel_home > div.col-sm-8 > div.inside > div.panel-pane",
+                  "boundingRect": {
+                    "top": 2121,
+                    "bottom": 2627,
+                    "left": 127,
+                    "right": 848,
+                    "width": 721,
+                    "height": 506
+                  },
+                  "snippet": "<div class=\"panel-pane pane-views pane-display-news-items-homepage\">",
+                  "nodeLabel": "News & Events\n\nColorado Department of Education pledges $11 million to support …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-84-A",
+            "path": "1,HTML,1,BODY,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,DIV,0,P,0,A",
+            "selector": "div.row > div.col-sm-4 > p.rtecenter > a",
+            "boundingRect": {
+              "top": 2572,
+              "bottom": 2589,
+              "left": 415,
+              "right": 560,
+              "width": 145,
+              "height": 17
+            },
+            "snippet": "<a data-tracklink=\"y\" data-tracklinkval=\"/communications/track-homepage-news-block-comms\" href=\"/communications\">",
+            "nodeLabel": "Communications",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #76756d, background color: #ebeced, font size: 10.0pt (13.3px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-161-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div#mini-panel-footer_mini_panel_home > div.col-sm-8 > div.inside > div.panel-pane",
+                  "boundingRect": {
+                    "top": 2121,
+                    "bottom": 2627,
+                    "left": 127,
+                    "right": 848,
+                    "width": 721,
+                    "height": 506
+                  },
+                  "snippet": "<div class=\"panel-pane pane-views pane-display-news-items-homepage\">",
+                  "nodeLabel": "News & Events\n\nColorado Department of Education pledges $11 million to support …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-85-A",
+            "path": "1,HTML,1,BODY,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,2,DIV,0,P,0,A",
+            "selector": "div.row > div.col-sm-4 > p.rtecenter > a",
+            "boundingRect": {
+              "top": 2572,
+              "bottom": 2589,
+              "left": 680,
+              "right": 780,
+              "width": 100,
+              "height": 17
+            },
+            "snippet": "<a data-tracklink=\"y\" data-tracklinkval=\"/communications/track-homepage-news-block-calendar\" href=\"/cde_calendar\">",
+            "nodeLabel": "Calendar",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #76756d, background color: #ebeced, font size: 10.0pt (13.3px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-161-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div#mini-panel-footer_mini_panel_home > div.col-sm-8 > div.inside > div.panel-pane",
+                  "boundingRect": {
+                    "top": 2121,
+                    "bottom": 2627,
+                    "left": 127,
+                    "right": 848,
+                    "width": 721,
+                    "height": 506
+                  },
+                  "snippet": "<div class=\"panel-pane pane-views pane-display-news-items-homepage\">",
+                  "nodeLabel": "News & Events\n\nColorado Department of Education pledges $11 million to support …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-162-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,IMG",
+            "selector": "ul > li#mn5 > a > img",
+            "boundingRect": {
+              "top": 157,
+              "bottom": 175,
+              "left": 1088,
+              "right": 1195,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<img src=\"/sites/default/files/pics/globalcontent/SchoolVIewLogo2019black-v4.png\">",
+            "nodeLabel": "ul > li#mn5 > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-15-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div#mainnav2 > ul > li#mn5 > a",
+            "boundingRect": {
+              "top": 150,
+              "bottom": 187,
+              "left": 1026,
+              "right": 1257,
+              "width": 231,
+              "height": 37
+            },
+            "snippet": "<a href=\"/schoolview\">",
+            "nodeLabel": "div#mainnav2 > ul > li#mn5 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-77-A",
+            "path": "1,HTML,1,BODY,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,SPAN,0,SPAN,0,DIV,0,DIV,0,A",
+            "selector": "span > div.row > div.col-sm-3 > a",
+            "boundingRect": {
+              "top": 2214,
+              "bottom": 2231,
+              "left": 169,
+              "right": 290,
+              "width": 121,
+              "height": 17
+            },
+            "snippet": "<a data-tracklink=\"y\" data-tracklinkval=\"/communications/track-homepage-news-item-linked-image\" href=\"https://www.cde.state.co.us/communications/news-release-donorschoose-launch\">",
+            "nodeLabel": "span > div.row > div.col-sm-3 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-86-A",
+            "path": "1,HTML,1,BODY,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,H2,0,A",
+            "selector": "div.pane-content > div#node-47564 > h2 > a",
+            "boundingRect": {
+              "top": 2194,
+              "bottom": 2194,
+              "left": 878,
+              "right": 878,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/globalcontent/promisingpracticeshomepageblock\">",
+            "nodeLabel": "div.pane-content > div#node-47564 > h2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

@@ -1,0 +1,336 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-18-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,1,H3,0,A",
+            "selector": "div.row > div.col-sm-4 > h3.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 1037,
+              "bottom": 1091,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 54
+            },
+            "snippet": "<a class=\"btn btn-danger btn-block\" href=\"/cdesped/covid19-spedguidance\">",
+            "nodeLabel": "Special Education During\nCovid 19",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.96 (foreground color: #ffffff, background color: #d9534f, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-19-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,5,DIV,1,DIV,1,H3,0,A",
+            "selector": "div.row > div.col-sm-4 > h3.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 1311,
+              "bottom": 1365,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 54
+            },
+            "snippet": "<a class=\"btn btn-danger btn-block\" href=\"/cdesped/covid19-studentlearning\">",
+            "nodeLabel": "Learning Supports for\nStudents with Disabilities",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.96 (foreground color: #ffffff, background color: #d9534f, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-20-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,1,DIV,1,H3,0,A",
+            "selector": "div.row > div.col-sm-4 > h3.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 1556,
+              "bottom": 1610,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 54
+            },
+            "snippet": "<a class=\"btn btn-danger btn-block\" href=\"/cdesped/covid19-family\">",
+            "nodeLabel": "COVID-19 Resources for Families\nof Students with Disabilities",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.96 (foreground color: #ffffff, background color: #d9534f, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-21-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,2,DIV,1,H3,0,A",
+            "selector": "div.row > div.col-sm-4 > h3.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 1657,
+              "bottom": 1711,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 54
+            },
+            "snippet": "<a class=\"btn btn-danger btn-block\" href=\"/cdesped/parent-faq\">",
+            "nodeLabel": "Parent/Family\nFrequently Asked Questions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.96 (foreground color: #ffffff, background color: #d9534f, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-46-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,20,DIV,1,DIV,0,P,0,A",
+            "selector": "div.row > div.col-sm-6 > p > a.btn",
+            "boundingRect": {
+              "top": 3542,
+              "bottom": 3588,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 46
+            },
+            "snippet": "<a class=\"btn btn-success btn-block btn-lg\" href=\"https://us02web.zoom.us/meeting/tZAlf-qtpzgsGtFEIVFZxg41A860cd5PAk0k/ics?i…\">",
+            "nodeLabel": "Join the BCBA Conversation.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #ffffff, background color: #5cb85c, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-49-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,23,DIV,1,DIV,0,P,0,A",
+            "selector": "div.row > div.col-sm-6 > p.rtecenter > a.btn",
+            "boundingRect": {
+              "top": 4095,
+              "bottom": 4141,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 46
+            },
+            "snippet": "<a class=\"btn btn-success btn-block btn-lg\" href=\"https://app.smartsheet.com/b/form/3003fe0868204b739e52e195b0e9e6d6\">",
+            "nodeLabel": "Register for Sounds Bites",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #ffffff, background color: #5cb85c, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-54-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,32,DIV,1,DIV,0,P,0,A",
+            "selector": "div.row > div.col-sm-6 > p > a.btn",
+            "boundingRect": {
+              "top": 4826,
+              "bottom": 4880,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 54
+            },
+            "snippet": "<a class=\"btn btn-success btn-block\" href=\"https://app.smartsheet.com/b/form/24d9db3462de4206a96064229d772385\">",
+            "nodeLabel": "Register for SED, SEL,\nMental Health & Behavior Office Hours",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #ffffff, background color: #5cb85c, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-56-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,35,DIV,1,DIV,0,P,0,A",
+            "selector": "div.row > div.col-sm-6 > p > a.btn",
+            "boundingRect": {
+              "top": 5160,
+              "bottom": 5214,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 54
+            },
+            "snippet": "<a class=\"btn btn-success btn-block\" href=\"https://app.smartsheet.com/b/form/a40c2db36ac944cd97390401824f6d58\" target=\"_top\">",
+            "nodeLabel": "SSN Power Hour\nRegistration",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #ffffff, background color: #5cb85c, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-59-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,38,DIV,1,DIV,0,P,0,A",
+            "selector": "div.row > div.col-sm-6 > p > a.btn",
+            "boundingRect": {
+              "top": 5839,
+              "bottom": 5909,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 70
+            },
+            "snippet": "<a class=\"btn btn-success btn-block btn-lg\" href=\"https://app.smartsheet.com/b/form/2f3b765de06e4c5a88aba17cc9998600\">",
+            "nodeLabel": "Register for the Special Education\nEvaluation Webinar Series",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #ffffff, background color: #5cb85c, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-62-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,41,DIV,1,DIV,0,P,0,A",
+            "selector": "div.row > div.col-sm-6 > p > a.btn",
+            "boundingRect": {
+              "top": 6316,
+              "bottom": 6362,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 46
+            },
+            "snippet": "<a class=\"btn btn-success btn-block btn-lg\" href=\"https://app.smartsheet.com/b/form/32475c7434594b71b05201e96bca3952\">",
+            "nodeLabel": "Register for SLP Office Hours",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #ffffff, background color: #5cb85c, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-151-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,IMG",
+            "selector": "ul > li#mn5 > a > img",
+            "boundingRect": {
+              "top": 443,
+              "bottom": 461,
+              "left": 153,
+              "right": 260,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<img src=\"/sites/default/files/pics/globalcontent/SchoolVIewLogo2019black-v4.png\">",
+            "nodeLabel": "ul > li#mn5 > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-15-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div#mainnav2 > ul > li#mn5 > a",
+            "boundingRect": {
+              "top": 436,
+              "bottom": 473,
+              "left": 3,
+              "right": 409,
+              "width": 406,
+              "height": 37
+            },
+            "snippet": "<a href=\"/schoolview\">",
+            "nodeLabel": "div#mainnav2 > ul > li#mn5 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

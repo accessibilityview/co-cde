@@ -1,0 +1,284 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-123-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,IMG",
+            "selector": "ul > li#mn5 > a > img",
+            "boundingRect": {
+              "top": 443,
+              "bottom": 461,
+              "left": 153,
+              "right": 260,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<img src=\"/sites/default/files/pics/globalcontent/SchoolVIewLogo2019black-v4.png\">",
+            "nodeLabel": "ul > li#mn5 > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-15-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div#mainnav2 > ul > li#mn5 > a",
+            "boundingRect": {
+              "top": 436,
+              "bottom": 473,
+              "left": 3,
+              "right": 409,
+              "width": 406,
+              "height": 37
+            },
+            "snippet": "<a href=\"/schoolview\">",
+            "nodeLabel": "div#mainnav2 > ul > li#mn5 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-124-UL",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,15,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 1702,
+              "bottom": 1795,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 93
+            },
+            "snippet": "<ul dir=\"ltr\">",
+            "nodeLabel": "Personnel costs could include Instructional Salaries and Benefits\nOther costs c…",
+            "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-125-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,15,UL,0,LI",
+                  "selector": "div.field-items > div.field-item > ul > li.rteindent1",
+                  "boundingRect": {
+                    "top": 1702,
+                    "bottom": 1737,
+                    "left": 92,
+                    "right": 399,
+                    "width": 307,
+                    "height": 35
+                  },
+                  "snippet": "<li class=\"rteindent1\" role=\"presentation\">",
+                  "nodeLabel": "Personnel costs could include Instructional Salaries and Benefits"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-126-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,15,UL,1,LI",
+                  "selector": "div.field-items > div.field-item > ul > li.rteindent1",
+                  "boundingRect": {
+                    "top": 1742,
+                    "bottom": 1795,
+                    "left": 92,
+                    "right": 399,
+                    "width": 307,
+                    "height": 53
+                  },
+                  "snippet": "<li class=\"rteindent1\" role=\"presentation\">",
+                  "nodeLabel": "Other costs could include devices to facilitate distance learning, cleaning and…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-127-UL",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,17,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 1902,
+              "bottom": 2052,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 150
+            },
+            "snippet": "<ul dir=\"ltr\">",
+            "nodeLabel": "Projected student counts can come from those incorporated into the FY 2020-21 S…",
+            "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-128-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,17,UL,0,LI",
+                  "selector": "div.field-items > div.field-item > ul > li.rteindent1",
+                  "boundingRect": {
+                    "top": 1902,
+                    "bottom": 1937,
+                    "left": 92,
+                    "right": 399,
+                    "width": 307,
+                    "height": 35
+                  },
+                  "snippet": "<li class=\"rteindent1\" role=\"presentation\">",
+                  "nodeLabel": "Projected student counts can come from those incorporated into the FY 2020-21 S…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-129-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,17,UL,1,LI",
+                  "selector": "div.field-items > div.field-item > ul > li.rteindent1",
+                  "boundingRect": {
+                    "top": 1942,
+                    "bottom": 1995,
+                    "left": 92,
+                    "right": 399,
+                    "width": 307,
+                    "height": 53
+                  },
+                  "snippet": "<li class=\"rteindent1\" role=\"presentation\">",
+                  "nodeLabel": "Actual student counts can come from Student October Data Pipeline \"School Summa…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-130-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,17,UL,2,LI",
+                  "selector": "div.field-items > div.field-item > ul > li.rteindent1",
+                  "boundingRect": {
+                    "top": 2000,
+                    "bottom": 2052,
+                    "left": 92,
+                    "right": 399,
+                    "width": 307,
+                    "height": 53
+                  },
+                  "snippet": "<li class=\"rteindent1\" role=\"presentation\">",
+                  "nodeLabel": "This calculation can be done at the district level - It is not necessary to do …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

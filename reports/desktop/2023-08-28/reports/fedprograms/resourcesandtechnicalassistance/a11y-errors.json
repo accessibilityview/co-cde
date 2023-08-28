@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-39-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,5,DIV,1,DIV,1,DIV,2,P,0,A",
+            "selector": "div.row > div.col-sm-6 > p > a.btn",
+            "boundingRect": {
+              "top": 1394,
+              "bottom": 1428,
+              "left": 543,
+              "right": 808,
+              "width": 265,
+              "height": 34
+            },
+            "snippet": "<a class=\"btn btn-warning\" href=\"https://us02web.zoom.us/meeting/register/tZwtdOmtpz0vHtBjrJU4Epvmwf4u4cs8b…\">",
+            "nodeLabel": "Register in advance for ESEA Office Hours",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.94 (foreground color: #ffffff, background color: #f0ad4e, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-253-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,9,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-855757957",
+            "boundingRect": {
+              "top": 1592,
+              "bottom": 1823,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-855757957\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/855757957?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-855757957",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-256-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,12,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-851728796",
+            "boundingRect": {
+              "top": 1929,
+              "bottom": 2160,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-851728796\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/851728796?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-851728796",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-257-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,15,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-839143505",
+            "boundingRect": {
+              "top": 2311,
+              "bottom": 2542,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-839143505\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/839143505?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-839143505",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-258-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,18,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-836946143",
+            "boundingRect": {
+              "top": 2670,
+              "bottom": 2901,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-836946143\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/836946143?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-836946143",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-259-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,21,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-832663948",
+            "boundingRect": {
+              "top": 3052,
+              "bottom": 3283,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-832663948\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/832663948?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-832663948",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-260-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,24,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-826245923",
+            "boundingRect": {
+              "top": 3456,
+              "bottom": 3687,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-826245923\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/826245923?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-826245923",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-261-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,27,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-825208584",
+            "boundingRect": {
+              "top": 3838,
+              "bottom": 4069,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-825208584\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/825208584?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-825208584",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-262-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,30,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-825244174",
+            "boundingRect": {
+              "top": 4120,
+              "bottom": 4351,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-825244174\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/825244174?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-825244174",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-263-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,33,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-815457278",
+            "boundingRect": {
+              "top": 4439,
+              "bottom": 4670,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-815457278\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/815457278?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-815457278",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-264-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,36,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-809098460",
+            "boundingRect": {
+              "top": 4804,
+              "bottom": 5034,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-809098460\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/809098460?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-809098460",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-265-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,39,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-811398043",
+            "boundingRect": {
+              "top": 5100,
+              "bottom": 5331,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-811398043\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/811398043?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-811398043",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-266-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,42,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-798418829",
+            "boundingRect": {
+              "top": 5397,
+              "bottom": 5628,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-798418829\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/798418829?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-798418829",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-267-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,45,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-793163161",
+            "boundingRect": {
+              "top": 5739,
+              "bottom": 5970,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-793163161\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/793163161?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-793163161",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-268-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,48,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-788833840",
+            "boundingRect": {
+              "top": 6098,
+              "bottom": 6329,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-788833840\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/788833840?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-788833840",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-269-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,51,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-782579659",
+            "boundingRect": {
+              "top": 6458,
+              "bottom": 6689,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-782579659\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/782579659?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-782579659",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-270-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,54,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-783367989",
+            "boundingRect": {
+              "top": 6799,
+              "bottom": 7030,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-783367989\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/783367989?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-783367989",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-271-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,57,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-772528714",
+            "boundingRect": {
+              "top": 7136,
+              "bottom": 7367,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-772528714\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/772528714?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-772528714",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-272-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,60,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-769963035",
+            "boundingRect": {
+              "top": 7496,
+              "bottom": 7727,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-769963035\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/769963035?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-769963035",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-273-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,63,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-769963580",
+            "boundingRect": {
+              "top": 7832,
+              "bottom": 8063,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-769963580\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/769963580?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-769963580",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-274-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,66,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-769963904",
+            "boundingRect": {
+              "top": 8277,
+              "bottom": 8508,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-769963904\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/769963904?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-769963904",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-275-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,69,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-755640949",
+            "boundingRect": {
+              "top": 8569,
+              "bottom": 8800,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-755640949\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/755640949?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-755640949",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-276-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,72,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-755706188",
+            "boundingRect": {
+              "top": 9013,
+              "bottom": 9244,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-755706188\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/755706188?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-755706188",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-277-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,75,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-745582199",
+            "boundingRect": {
+              "top": 9395,
+              "bottom": 9626,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-745582199\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/745582199?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-745582199",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-278-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,78,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-741238616",
+            "boundingRect": {
+              "top": 9799,
+              "bottom": 10030,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-741238616\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/741238616?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-741238616",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-279-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,81,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-737004523",
+            "boundingRect": {
+              "top": 10248,
+              "bottom": 10479,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-737004523\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/737004523?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-737004523",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-280-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,84,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-732535183",
+            "boundingRect": {
+              "top": 10630,
+              "bottom": 10861,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-732535183\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/732535183?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-732535183",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-281-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,87,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-729003788",
+            "boundingRect": {
+              "top": 11057,
+              "bottom": 11288,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-729003788\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/729003788?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-729003788",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-282-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,90,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-724965266",
+            "boundingRect": {
+              "top": 11371,
+              "bottom": 11602,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-724965266\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/724965266?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-724965266",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-283-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,93,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-718883915",
+            "boundingRect": {
+              "top": 11753,
+              "bottom": 11984,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-718883915\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/718883915?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-718883915",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-284-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,96,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-714260273",
+            "boundingRect": {
+              "top": 12130,
+              "bottom": 12361,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-714260273\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/714260273?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-714260273",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-285-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,99,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-709272824",
+            "boundingRect": {
+              "top": 12564,
+              "bottom": 12795,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-709272824\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/709272824?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-709272824",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-286-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,102,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-707071802",
+            "boundingRect": {
+              "top": 13021,
+              "bottom": 13252,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-707071802\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/707071802?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-707071802",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-287-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,105,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-699885479",
+            "boundingRect": {
+              "top": 13448,
+              "bottom": 13679,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-699885479\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/699885479?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-699885479",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-288-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,108,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-696138485",
+            "boundingRect": {
+              "top": 13915,
+              "bottom": 14146,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-696138485\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/696138485?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-696138485",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-289-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,111,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-689756559",
+            "boundingRect": {
+              "top": 14274,
+              "bottom": 14505,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-689756559\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/689756559?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-689756559",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-290-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,114,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684793706",
+            "boundingRect": {
+              "top": 14626,
+              "bottom": 14857,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684793706\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684793706?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684793706",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-291-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,117,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-681936636",
+            "boundingRect": {
+              "top": 14923,
+              "bottom": 15154,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-681936636\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/681936636?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-681936636",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-292-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,120,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684443484",
+            "boundingRect": {
+              "top": 15215,
+              "bottom": 15446,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684443484\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684443484?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684443484",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-293-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,123,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684448666",
+            "boundingRect": {
+              "top": 15512,
+              "bottom": 15743,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684448666\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684448666?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684448666",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-294-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,126,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684449277",
+            "boundingRect": {
+              "top": 15804,
+              "bottom": 16034,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684449277\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684449277?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684449277",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-295-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,129,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684449670",
+            "boundingRect": {
+              "top": 16095,
+              "bottom": 16326,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684449670\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684449670?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684449670",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-296-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,132,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684449965",
+            "boundingRect": {
+              "top": 16387,
+              "bottom": 16618,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684449965\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684449965?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684449965",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-297-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,135,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684450132",
+            "boundingRect": {
+              "top": 16679,
+              "bottom": 16910,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684450132\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684450132?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684450132",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-298-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,138,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684450400",
+            "boundingRect": {
+              "top": 16971,
+              "bottom": 17202,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684450400\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684450400?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684450400",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-299-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,141,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684450871",
+            "boundingRect": {
+              "top": 17268,
+              "bottom": 17499,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684450871\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684450871?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684450871",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-300-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,144,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684452139",
+            "boundingRect": {
+              "top": 17560,
+              "bottom": 17791,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684452139\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684452139?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684452139",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-301-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,147,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684452003",
+            "boundingRect": {
+              "top": 17897,
+              "bottom": 18128,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684452003\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684452003?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684452003",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-302-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,150,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684452539",
+            "boundingRect": {
+              "top": 18189,
+              "bottom": 18420,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684452539\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684452539?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684452539",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-303-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,153,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684452649",
+            "boundingRect": {
+              "top": 18481,
+              "bottom": 18711,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684452649\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684452649?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684452649",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-304-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,156,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684453128",
+            "boundingRect": {
+              "top": 18772,
+              "bottom": 19003,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684453128\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684453128?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684453128",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-305-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,159,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684453283",
+            "boundingRect": {
+              "top": 19092,
+              "bottom": 19323,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684453283\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684453283?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684453283",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-306-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,162,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684453684",
+            "boundingRect": {
+              "top": 19384,
+              "bottom": 19615,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684453684\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684453684?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684453684",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-307-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,165,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684454186",
+            "boundingRect": {
+              "top": 19676,
+              "bottom": 19906,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684454186\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684454186?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684454186",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-308-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,168,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684454554",
+            "boundingRect": {
+              "top": 19972,
+              "bottom": 20203,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684454554\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684454554?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684454554",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-309-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,171,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684454711",
+            "boundingRect": {
+              "top": 20269,
+              "bottom": 20500,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684454711\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684454711?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684454711",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-310-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,174,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684455108",
+            "boundingRect": {
+              "top": 20561,
+              "bottom": 20792,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684455108\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684455108?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684455108",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-311-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,177,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684455465",
+            "boundingRect": {
+              "top": 20853,
+              "bottom": 21084,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684455465\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684455465?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684455465",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-312-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,180,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684455840",
+            "boundingRect": {
+              "top": 21145,
+              "bottom": 21376,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684455840\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684455840?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684455840",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-313-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,183,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684456139",
+            "boundingRect": {
+              "top": 21437,
+              "bottom": 21668,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684456139\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684456139?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684456139",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-314-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,186,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684443484--2",
+            "boundingRect": {
+              "top": 21729,
+              "bottom": 21960,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-684443484--2\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/684443484?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-684443484--2",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-315-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,189,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.field-item > div.embedded-video > div.player > iframe#vimeo-782579659--2",
+            "boundingRect": {
+              "top": 22011,
+              "bottom": 22242,
+              "left": 543,
+              "right": 953,
+              "width": 411,
+              "height": 231
+            },
+            "snippet": "<iframe class=\"\" id=\"vimeo-782579659--2\" width=\"640\" height=\"360\" src=\"//player.vimeo.com/video/782579659?width=640&amp;height=360&amp;color=00adef&amp;portr…\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\">",
+            "nodeLabel": "div.field-item > div.embedded-video > div.player > iframe#vimeo-782579659--2",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 61
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-316-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,IMG",
+            "selector": "ul > li#mn5 > a > img",
+            "boundingRect": {
+              "top": 157,
+              "bottom": 175,
+              "left": 1088,
+              "right": 1195,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<img src=\"/sites/default/files/pics/globalcontent/SchoolVIewLogo2019black-v4.png\">",
+            "nodeLabel": "ul > li#mn5 > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "143-15-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div#mainnav2 > ul > li#mn5 > a",
+            "boundingRect": {
+              "top": 150,
+              "bottom": 187,
+              "left": 1026,
+              "right": 1257,
+              "width": 231,
+              "height": 37
+            },
+            "snippet": "<a href=\"/schoolview\">",
+            "nodeLabel": "div#mainnav2 > ul > li#mn5 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

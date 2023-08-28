@@ -1,0 +1,793 @@
+[
+  {
+    "path": "/",
+    "score": 0.83
+  },
+  {
+    "path": "/21stcclc",
+    "score": 0.83
+  },
+  {
+    "path": "/accessibility",
+    "score": 0.85
+  },
+  {
+    "path": "/accessibilityresources",
+    "score": 0.85
+  },
+  {
+    "path": "/accountability",
+    "score": 0.85
+  },
+  {
+    "path": "/accountability/accountability_clock",
+    "score": 0.85
+  },
+  {
+    "path": "/accountability/cde-advisory-list-of-providers",
+    "score": 0.83
+  },
+  {
+    "path": "/accountability/performance",
+    "score": 0.81
+  },
+  {
+    "path": "/accountability/performanceframeworks",
+    "score": 0.81
+  },
+  {
+    "path": "/assessment",
+    "score": 0.82
+  },
+  {
+    "path": "/assessment/aboutus",
+    "score": 0.85
+  },
+  {
+    "path": "/assessment/cmas"
+  },
+  {
+    "path": "/assessment/cmas-dataandresults"
+  },
+  {
+    "path": "/assessment/coalt-englishmath-dataandresults"
+  },
+  {
+    "path": "/calendar/stateboard-aug2023",
+    "score": 0.84
+  },
+  {
+    "path": "/capitalconstruction",
+    "score": 0.75
+  },
+  {
+    "path": "/capitalconstruction/best",
+    "score": 0.82
+  },
+  {
+    "path": "/capitalconstruction/ccab",
+    "score": 0.82
+  },
+  {
+    "path": "/capitalconstruction/contact",
+    "score": 0.83
+  },
+  {
+    "path": "/capitalconstruction/cscc",
+    "score": 0.8
+  },
+  {
+    "path": "/capitalconstruction/facilityinsight",
+    "score": 0.83
+  },
+  {
+    "path": "/caresact"
+  },
+  {
+    "path": "/caresact/arp-idea"
+  },
+  {
+    "path": "/caresact/covidcaresactfaq",
+    "score": 0.8
+  },
+  {
+    "path": "/caresact/crf"
+  },
+  {
+    "path": "/caresact/esser",
+    "score": 0.72
+  },
+  {
+    "path": "/caresact/esser-report",
+    "score": 0.78
+  },
+  {
+    "path": "/caresact/esser-report/detail/BlogAxis",
+    "score": 0.82
+  },
+  {
+    "path": "/caresact/esser-report/detail/BlogDPSTutoring",
+    "score": 0.82
+  },
+  {
+    "path": "/caresact/esser-report/detail/BlogKatyVideo",
+    "score": 0.82
+  },
+  {
+    "path": "/caresact/esser-report/detail/BlogPostHolyoke",
+    "score": 0.83
+  },
+  {
+    "path": "/caresact/esser-report/detail/BlogPostJeffcoHazel",
+    "score": 0.82
+  },
+  {
+    "path": "/caresact/esser/donorschoose",
+    "score": 0.84
+  },
+  {
+    "path": "/caresact/essergrantee/subgranteereporting"
+  },
+  {
+    "path": "/cde_calendar",
+    "score": 0.85
+  },
+  {
+    "path": "/cde_english",
+    "score": 0.84
+  },
+  {
+    "path": "/cde_english/celpstandards",
+    "score": 0.81
+  },
+  {
+    "path": "/cde_english/cldestatewidesupport",
+    "score": 0.82
+  },
+  {
+    "path": "/cde_english/coloradoduallanguageimmersion",
+    "score": 0.83
+  },
+  {
+    "path": "/cde_english/contactus",
+    "score": 0.83
+  },
+  {
+    "path": "/cde_english/elau_pubsresources",
+    "score": 0.83
+  },
+  {
+    "path": "/cdeawards",
+    "score": 0.85
+  },
+  {
+    "path": "/cdeawards/awards",
+    "score": 0.85
+  },
+  {
+    "path": "/cdeawards/contactus",
+    "score": 0.83
+  },
+  {
+    "path": "/cdeawards/grants",
+    "score": 0.83
+  },
+  {
+    "path": "/cdeawards/otheropportunities",
+    "score": 0.83
+  },
+  {
+    "path": "/cdeboard",
+    "score": 0.85
+  },
+  {
+    "path": "/cdeboard/about",
+    "score": 0.83
+  },
+  {
+    "path": "/cdeboard/administrative_procedures",
+    "score": 0.82
+  },
+  {
+    "path": "/cdeboard/angelika_schroeder",
+    "score": 0.82
+  },
+  {
+    "path": "/cdeboard/board_member_profiles",
+    "score": 0.82
+  },
+  {
+    "path": "/cdeboard/congressional_district_map",
+    "score": 0.82
+  },
+  {
+    "path": "/cdecomm",
+    "score": 0.85
+  },
+  {
+    "path": "/cdecomm/aboutcde",
+    "score": 0.85
+  },
+  {
+    "path": "/cdecomm/cdehighered",
+    "score": 0.83
+  },
+  {
+    "path": "/cdecomm/cdetasks",
+    "score": 0.83
+  },
+  {
+    "path": "/cdecomm/cmbio",
+    "score": 0.83
+  },
+  {
+    "path": "/cdecomm/strategicplan",
+    "score": 0.85
+  },
+  {
+    "path": "/cdedepcom",
+    "score": 0.85
+  },
+  {
+    "path": "/cdeedserv",
+    "score": 0.81
+  },
+  {
+    "path": "/cdefinance",
+    "score": 0.85
+  },
+  {
+    "path": "/cdefinance/abouttheschoolfinanceoffice",
+    "score": 0.83
+  },
+  {
+    "path": "/cdefinance/accreditation",
+    "score": 0.83
+  },
+  {
+    "path": "/cdefinance/accreditationcategoriesdistributionperpupilfunding",
+    "score": 0.83
+  },
+  {
+    "path": "/cdefinance/auditunit",
+    "score": 0.84
+  },
+  {
+    "path": "/cdefinance/cdefinance/financialaudit",
+    "score": 0.83
+  },
+  {
+    "path": "/cdefisgrant",
+    "score": 0.83
+  },
+  {
+    "path": "/cdefisgrant/allocations",
+    "score": 0.83
+  },
+  {
+    "path": "/cdefisgrant/grant_distribution_reports",
+    "score": 0.81
+  },
+  {
+    "path": "/cdelib",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/aboutus",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/adultlibraryservices",
+    "score": 0.81
+  },
+  {
+    "path": "/cdelib/brochures/index",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/ce",
+    "score": 0.81
+  },
+  {
+    "path": "/cdelib/forthepublic",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/funding",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/librarydevelopment/index",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/librarydevelopment/publiclibraries/index",
+    "score": 0.85
+  },
+  {
+    "path": "/cdelib/librarydevelopment/publiclibraries/legaldocuments",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/librarydevelopment/publiclibraries/otherlegalresources",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/librarydevelopment/publiclibraries/policies",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/librarydevelopment/publiclibraries/Policies",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/librarydevelopment/schoollibraries/index",
+    "score": 0.82
+  },
+  {
+    "path": "/cdelib/librarydevelopment/schoollibraries/schoollibraryprivacyissues",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/librarydevelopment/schoollibraries/schoollibraryresourcesreplacement",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/librarydevelopment/youthservices/index",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/librarylaw/index",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/LibraryLaw/Index",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/prisonlibraries/index",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/prisonlibraries/institutions",
+    "score": 0.85
+  },
+  {
+    "path": "/cdelib/prisonlibraries/resources",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/prisonlibraries/staff",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/standards/index",
+    "score": 0.83
+  },
+  {
+    "path": "/cdelib/Standards/Index",
+    "score": 0.83
+  },
+  {
+    "path": "/cdeprof",
+    "score": 0.84
+  },
+  {
+    "path": "/cdeprof/adminrequirements",
+    "score": 0.84
+  },
+  {
+    "path": "/cdeprof/contactus",
+    "score": 0.85
+  },
+  {
+    "path": "/cdeprof/covid19licensureconcerns",
+    "score": 0.82
+  },
+  {
+    "path": "/cdeprof/newcoolsystemupdates",
+    "score": 0.82
+  },
+  {
+    "path": "/cdeprof/OOSreqs",
+    "score": 0.84
+  },
+  {
+    "path": "/cdeprofessionaldevelopment",
+    "score": 0.84
+  },
+  {
+    "path": "/cdesped",
+    "score": 0.85
+  },
+  {
+    "path": "/cdesped/childfind",
+    "score": 0.85
+  },
+  {
+    "path": "/cdestaffdirectory",
+    "score": 0.81
+  },
+  {
+    "path": "/choice",
+    "score": 0.84
+  },
+  {
+    "path": "/code/accountability-performancesnapshot",
+    "score": 0.84
+  },
+  {
+    "path": "/coloradoliteracy",
+    "score": 0.84
+  },
+  {
+    "path": "/coloradoliteracy/readact/assessmenttool",
+    "score": 0.82
+  },
+  {
+    "path": "/coloradoliteracy/readact/grant",
+    "score": 0.84
+  },
+  {
+    "path": "/coloradoliteracy/readact/programming",
+    "score": 0.83
+  },
+  {
+    "path": "/coloradoliteracy/schooladministrators-training",
+    "score": 0.83
+  },
+  {
+    "path": "/coloradoliteracy/teacher-training",
+    "score": 0.81
+  },
+  {
+    "path": "/communications",
+    "score": 0.85
+  },
+  {
+    "path": "/communications/coeducationfactsandfigures",
+    "score": 0.83
+  },
+  {
+    "path": "/communications/news_and_events",
+    "score": 0.87
+  },
+  {
+    "path": "/communications/newsreleases",
+    "score": 0.85
+  },
+  {
+    "path": "/communications/tools-donorschoose",
+    "score": 0.82
+  },
+  {
+    "path": "/communities",
+    "score": 0.85
+  },
+  {
+    "path": "/contact_cde",
+    "score": 0.85
+  },
+  {
+    "path": "/cpp",
+    "score": 0.84
+  },
+  {
+    "path": "/datapipeline/per_december-finance",
+    "score": 0.83
+  },
+  {
+    "path": "/disclaimer",
+    "score": 0.84
+  },
+  {
+    "path": "/districts",
+    "score": 0.84
+  },
+  {
+    "path": "/dropoutprevention",
+    "score": 0.85
+  },
+  {
+    "path": "/DropoutPrevention",
+    "score": 0.83
+  },
+  {
+    "path": "/early",
+    "score": 0.82
+  },
+  {
+    "path": "/earlylearninglibraries",
+    "score": 0.82
+  },
+  {
+    "path": "/edtech/erate",
+    "score": 0.83
+  },
+  {
+    "path": "/edtech/erate_contactus",
+    "score": 0.83
+  },
+  {
+    "path": "/edtech/erate_deadlines",
+    "score": 0.83
+  },
+  {
+    "path": "/educatoreffectiveness",
+    "score": 0.82
+  },
+  {
+    "path": "/educatoreffectiveness/copms",
+    "score": 0.85
+  },
+  {
+    "path": "/educatoreffectiveness/for-district-boces-leaders",
+    "score": 0.83
+  },
+  {
+    "path": "/educators",
+    "score": 0.84
+  },
+  {
+    "path": "/educatortalent",
+    "score": 0.84
+  },
+  {
+    "path": "/educatortalent/coloradoteachingjobs",
+    "score": 0.85
+  },
+  {
+    "path": "/educatortalent/eccareernavigation",
+    "score": 0.83
+  },
+  {
+    "path": "/educatortalent/elpdpathways",
+    "score": 0.85
+  },
+  {
+    "path": "/educatortalent/preparation",
+    "score": 0.8
+  },
+  {
+    "path": "/educatortalent/principalresources",
+    "score": 0.85
+  },
+  {
+    "path": "/eseaofficehours_01262023",
+    "score": 0.79
+  },
+  {
+    "path": "/esser-blog-terms/air-quality",
+    "score": 0.82
+  },
+  {
+    "path": "/esser-blog-terms/allocations",
+    "score": 0.82
+  },
+  {
+    "path": "/esser-blog-terms/american-rescue-plan-arp",
+    "score": 0.83
+  },
+  {
+    "path": "/esser-blog-terms/education-workforce-program",
+    "score": 0.84
+  },
+  {
+    "path": "/esser-blog-terms/esser-expanded-learning-opportunities",
+    "score": 0.82
+  },
+  {
+    "path": "/families",
+    "score": 0.85
+  },
+  {
+    "path": "/familyengagement",
+    "score": 0.84
+  },
+  {
+    "path": "/faq",
+    "score": 0.87
+  },
+  {
+    "path": "/fedprograms",
+    "score": 0.84
+  },
+  {
+    "path": "/fedprograms/easiapplication",
+    "score": 0.81
+  },
+  {
+    "path": "/fedprograms/essa",
+    "score": 0.85
+  },
+  {
+    "path": "/fedprograms/resourcesandtechnicalassistance",
+    "score": 0.49
+  },
+  {
+    "path": "/fedprograms/ti/a_distinguishedschools",
+    "score": 0.83
+  },
+  {
+    "path": "/fedprograms/tii/a_hqt",
+    "score": 0.81
+  },
+  {
+    "path": "/fedprograms/tii/index",
+    "score": 0.85
+  },
+  {
+    "path": "/fedprograms/tiii/index",
+    "score": 0.85
+  },
+  {
+    "path": "/fourdomains",
+    "score": 0.85
+  },
+  {
+    "path": "/gains",
+    "score": 0.82
+  },
+  {
+    "path": "/gains/gainstrainings",
+    "score": 0.83
+  },
+  {
+    "path": "/globalcontent/promisingpracticeshomepageblock",
+    "score": 0.84
+  },
+  {
+    "path": "/gt",
+    "score": 0.85
+  },
+  {
+    "path": "/healthandwellness",
+    "score": 0.85
+  },
+  {
+    "path": "/humanresources",
+    "score": 0.85
+  },
+  {
+    "path": "/humanresources/jobs",
+    "score": 0.84
+  },
+  {
+    "path": "/idm/datapipeline",
+    "score": 0.83
+  },
+  {
+    "path": "/learningathome/remotelearningresources",
+    "score": 0.85
+  },
+  {
+    "path": "/migrant",
+    "score": 0.85
+  },
+  {
+    "path": "/mtss",
+    "score": 0.82
+  },
+  {
+    "path": "/mtss/bullying",
+    "score": 0.82
+  },
+  {
+    "path": "/node/2378/",
+    "score": 0.83
+  },
+  {
+    "path": "/nutrition",
+    "score": 0.8
+  },
+  {
+    "path": "/nutrition/emergency-food-service-programs",
+    "score": 0.82
+  },
+  {
+    "path": "/offices",
+    "score": 0.85
+  },
+  {
+    "path": "/postsecondary/apexam_fee",
+    "score": 0.85
+  },
+  {
+    "path": "/postsecondary/concurrentenrollment",
+    "score": 0.84
+  },
+  {
+    "path": "/postsecondary/graduationguidelines",
+    "score": 0.84
+  },
+  {
+    "path": "/postsecondary/hb18-1266",
+    "score": 0.85
+  },
+  {
+    "path": "/postsecondary/hse",
+    "score": 0.84
+  },
+  {
+    "path": "/privacy ",
+    "score": 0.85
+  },
+  {
+    "path": "/ruraledcouncil",
+    "score": 0.83
+  },
+  {
+    "path": "/sacpie",
+    "score": 0.8
+  },
+  {
+    "path": "/safeschools",
+    "score": 0.83
+  },
+  {
+    "path": "/schoolclimate",
+    "score": 0.85
+  },
+  {
+    "path": "/schoolview",
+    "score": 0.85
+  },
+  {
+    "path": "/schoolview/financialtransparency/homepage",
+    "score": 0.94
+  },
+  {
+    "path": "/schoolview/performance"
+  },
+  {
+    "path": "/siteindex",
+    "score": 0.85
+  },
+  {
+    "path": "/standardsandinstruction",
+    "score": 0.85
+  },
+  {
+    "path": "/standardsandinstruction/2020implementation",
+    "score": 0.85
+  },
+  {
+    "path": "/standardsandinstruction/highimpacttutoringprogram",
+    "score": 0.82
+  },
+  {
+    "path": "/standardsandinstruction/standards"
+  },
+  {
+    "path": "/stateinfo",
+    "score": 0.85
+  },
+  {
+    "path": "/studentsupport/arp-hcy",
+    "score": 0.82
+  },
+  {
+    "path": "/titleix",
+    "score": 0.85
+  },
+  {
+    "path": "/transportation",
+    "score": 0.82
+  },
+  {
+    "path": "/transportation/schooltransportationtaskforce",
+    "score": 0.83
+  },
+  {
+    "path": "/uip",
+    "score": 0.85
+  },
+  {
+    "path": "/uip/statereviewpanel",
+    "score": 0.83
+  },
+  {
+    "path": "/user/",
+    "score": 0.85
+  }
+]
