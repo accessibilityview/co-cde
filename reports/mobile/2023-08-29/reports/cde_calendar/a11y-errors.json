@@ -1,0 +1,1287 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-109-TH",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,0,THEAD,0,TR,0,TH",
+            "selector": "table.full > thead > tr > th#Sunday",
+            "boundingRect": {
+              "top": 678,
+              "bottom": 698,
+              "left": 13,
+              "right": 68,
+              "width": 55,
+              "height": 21
+            },
+            "snippet": "<th class=\"days sun\" id=\"Sunday\">",
+            "nodeLabel": "Sun",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.85 (foreground color: #777777, background color: #eeeeee, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-110-TH",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,0,THEAD,0,TR,1,TH",
+            "selector": "table.full > thead > tr > th#Monday",
+            "boundingRect": {
+              "top": 678,
+              "bottom": 698,
+              "left": 68,
+              "right": 123,
+              "width": 55,
+              "height": 21
+            },
+            "snippet": "<th class=\"days mon\" id=\"Monday\">",
+            "nodeLabel": "Mon",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.85 (foreground color: #777777, background color: #eeeeee, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-111-TH",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,0,THEAD,0,TR,2,TH",
+            "selector": "table.full > thead > tr > th#Tuesday",
+            "boundingRect": {
+              "top": 678,
+              "bottom": 698,
+              "left": 123,
+              "right": 178,
+              "width": 55,
+              "height": 21
+            },
+            "snippet": "<th class=\"days tue\" id=\"Tuesday\">",
+            "nodeLabel": "Tue",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.85 (foreground color: #777777, background color: #eeeeee, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-112-TH",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,0,THEAD,0,TR,3,TH",
+            "selector": "table.full > thead > tr > th#Wednesday",
+            "boundingRect": {
+              "top": 678,
+              "bottom": 698,
+              "left": 178,
+              "right": 233,
+              "width": 55,
+              "height": 21
+            },
+            "snippet": "<th class=\"days wed\" id=\"Wednesday\">",
+            "nodeLabel": "Wed",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.85 (foreground color: #777777, background color: #eeeeee, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-113-TH",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,0,THEAD,0,TR,4,TH",
+            "selector": "table.full > thead > tr > th#Thursday",
+            "boundingRect": {
+              "top": 678,
+              "bottom": 698,
+              "left": 233,
+              "right": 288,
+              "width": 55,
+              "height": 21
+            },
+            "snippet": "<th class=\"days thu\" id=\"Thursday\">",
+            "nodeLabel": "Thu",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.85 (foreground color: #777777, background color: #eeeeee, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-114-TH",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,0,THEAD,0,TR,5,TH",
+            "selector": "table.full > thead > tr > th#Friday",
+            "boundingRect": {
+              "top": 678,
+              "bottom": 698,
+              "left": 288,
+              "right": 343,
+              "width": 55,
+              "height": 21
+            },
+            "snippet": "<th class=\"days fri\" id=\"Friday\">",
+            "nodeLabel": "Fri",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.85 (foreground color: #777777, background color: #eeeeee, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-115-TH",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,0,THEAD,0,TR,6,TH",
+            "selector": "table.full > thead > tr > th#Saturday",
+            "boundingRect": {
+              "top": 678,
+              "bottom": 698,
+              "left": 343,
+              "right": 399,
+              "width": 55,
+              "height": 21
+            },
+            "snippet": "<th class=\"days sat\" id=\"Saturday\">",
+            "nodeLabel": "Sat",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.85 (foreground color: #777777, background color: #eeeeee, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-116-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-07-30-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 700,
+              "bottom": 719,
+              "left": 44,
+              "right": 65,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "30",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.5 (foreground color: #cccc99, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-117-TD",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD",
+                  "selector": "table.full > tbody > tr.date-box > td#cde_calendar-2023-07-30-date-box",
+                  "boundingRect": {
+                    "top": 698,
+                    "bottom": 721,
+                    "left": 13,
+                    "right": 68,
+                    "width": 55,
+                    "height": 23
+                  },
+                  "snippet": "<td id=\"cde_calendar-2023-07-30-date-box\" class=\"date-box past empty\" colspan=\"1\" rowspan=\"1\" data-date=\"2023-07-30\" headers=\"Sunday\" data-day-of-month=\"30\">",
+                  "nodeLabel": "30"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-118-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,1,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-07-31-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 700,
+              "bottom": 719,
+              "left": 99,
+              "right": 120,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "31",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.5 (foreground color: #cccc99, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-119-TD",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,1,TD",
+                  "selector": "table.full > tbody > tr.date-box > td#cde_calendar-2023-07-31-date-box",
+                  "boundingRect": {
+                    "top": 698,
+                    "bottom": 721,
+                    "left": 68,
+                    "right": 123,
+                    "width": 55,
+                    "height": 23
+                  },
+                  "snippet": "<td id=\"cde_calendar-2023-07-31-date-box\" class=\"date-box past empty\" colspan=\"1\" rowspan=\"1\" data-date=\"2023-07-31\" headers=\"Monday\" data-day-of-month=\"31\">",
+                  "nodeLabel": "31"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-120-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR,4,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-10-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 768,
+              "bottom": 787,
+              "left": 265,
+              "right": 286,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "10",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-121-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 767,
+                    "bottom": 789,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "6\n\t\n7\n\t\n8\n\t\n9\n\t\n10\n\t\n11\n\t\n12"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-122-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR,5,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-11-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 768,
+              "bottom": 787,
+              "left": 320,
+              "right": 341,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "11",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-121-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 767,
+                    "bottom": 789,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "6\n\t\n7\n\t\n8\n\t\n9\n\t\n10\n\t\n11\n\t\n12"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-123-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR,6,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-12-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 768,
+              "bottom": 787,
+              "left": 375,
+              "right": 396,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "12",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-121-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 767,
+                    "bottom": 789,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "6\n\t\n7\n\t\n8\n\t\n9\n\t\n10\n\t\n11\n\t\n12"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-124-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,0,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-13-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 836,
+              "bottom": 856,
+              "left": 44,
+              "right": 65,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "13",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-125-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 835,
+                    "bottom": 858,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "13\n\t\n14\n\t\n15\n\t\n16\n\t\n17\n\t\n18\n\t\n19"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-126-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,1,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-14-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 836,
+              "bottom": 856,
+              "left": 99,
+              "right": 120,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "14",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-125-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 835,
+                    "bottom": 858,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "13\n\t\n14\n\t\n15\n\t\n16\n\t\n17\n\t\n18\n\t\n19"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-127-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,2,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-15-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 836,
+              "bottom": 856,
+              "left": 154,
+              "right": 175,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "15",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-125-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 835,
+                    "bottom": 858,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "13\n\t\n14\n\t\n15\n\t\n16\n\t\n17\n\t\n18\n\t\n19"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-19-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,3,TD,0,DIV,0,DIV,0,A",
+            "selector": "td#cde_calendar-2023-08-16-date-box > div.inner > div.month > a",
+            "boundingRect": {
+              "top": 838,
+              "bottom": 856,
+              "left": 213,
+              "right": 227,
+              "width": 14,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.cde.state.co.us/cde_calendar/day/2023-08-16\">",
+            "nodeLabel": "16",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #4b85ac, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-125-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 835,
+                    "bottom": 858,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "13\n\t\n14\n\t\n15\n\t\n16\n\t\n17\n\t\n18\n\t\n19"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-20-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,4,TD,0,DIV,0,DIV,0,A",
+            "selector": "td#cde_calendar-2023-08-17-date-box > div.inner > div.month > a",
+            "boundingRect": {
+              "top": 838,
+              "bottom": 856,
+              "left": 268,
+              "right": 282,
+              "width": 14,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.cde.state.co.us/cde_calendar/day/2023-08-17\">",
+            "nodeLabel": "17",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #4b85ac, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-125-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 835,
+                    "bottom": 858,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "13\n\t\n14\n\t\n15\n\t\n16\n\t\n17\n\t\n18\n\t\n19"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-128-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,5,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-18-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 836,
+              "bottom": 856,
+              "left": 320,
+              "right": 341,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "18",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-125-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 835,
+                    "bottom": 858,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "13\n\t\n14\n\t\n15\n\t\n16\n\t\n17\n\t\n18\n\t\n19"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-129-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,6,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-19-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 836,
+              "bottom": 856,
+              "left": 375,
+              "right": 396,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "19",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-125-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 835,
+                    "bottom": 858,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "13\n\t\n14\n\t\n15\n\t\n16\n\t\n17\n\t\n18\n\t\n19"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-130-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR,0,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-20-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 922,
+              "left": 44,
+              "right": 65,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-131-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 901,
+                    "bottom": 924,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "20\n\t\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-132-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR,1,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-21-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 922,
+              "left": 99,
+              "right": 120,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-131-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 901,
+                    "bottom": 924,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "20\n\t\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-133-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR,2,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-22-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 922,
+              "left": 154,
+              "right": 175,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-131-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 901,
+                    "bottom": 924,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "20\n\t\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-134-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR,3,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-23-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 922,
+              "left": 210,
+              "right": 231,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-131-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 901,
+                    "bottom": 924,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "20\n\t\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-135-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR,4,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-24-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 922,
+              "left": 265,
+              "right": 286,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "24",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-131-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 901,
+                    "bottom": 924,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "20\n\t\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-136-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR,5,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-25-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 922,
+              "left": 320,
+              "right": 341,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "25",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-131-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 901,
+                    "bottom": 924,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "20\n\t\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-137-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR,6,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-26-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 922,
+              "left": 375,
+              "right": 396,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "26",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-131-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,7,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 901,
+                    "bottom": 924,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "20\n\t\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-138-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR,0,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-27-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 971,
+              "bottom": 991,
+              "left": 44,
+              "right": 65,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "27",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-139-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 970,
+                    "bottom": 993,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "27\n\t\n28\n\t\n29\n\t\n30\n\t\n31\n\t\n1\n\t\n2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-140-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR,1,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-28-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 971,
+              "bottom": 991,
+              "left": 99,
+              "right": 120,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "28",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-139-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 970,
+                    "bottom": 993,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "27\n\t\n28\n\t\n29\n\t\n30\n\t\n31\n\t\n1\n\t\n2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-141-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR,2,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-29-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 972,
+              "bottom": 991,
+              "left": 154,
+              "right": 175,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "29",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-139-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 970,
+                    "bottom": 993,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "27\n\t\n28\n\t\n29\n\t\n30\n\t\n31\n\t\n1\n\t\n2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-142-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR,3,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-30-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 971,
+              "bottom": 991,
+              "left": 210,
+              "right": 231,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "30",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-139-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 970,
+                    "bottom": 993,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "27\n\t\n28\n\t\n29\n\t\n30\n\t\n31\n\t\n1\n\t\n2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-143-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR,4,TD,0,DIV,0,DIV",
+            "selector": "tr.date-box > td#cde_calendar-2023-08-31-date-box > div.inner > div.month",
+            "boundingRect": {
+              "top": 971,
+              "bottom": 991,
+              "left": 265,
+              "right": 286,
+              "width": 21,
+              "height": 19
+            },
+            "snippet": "<div class=\"month day\">",
+            "nodeLabel": "31",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-139-TR",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,9,TR",
+                  "selector": "div.month-view > table.full > tbody > tr.date-box",
+                  "boundingRect": {
+                    "top": 970,
+                    "bottom": 993,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 23
+                  },
+                  "snippet": "<tr class=\"date-box\">",
+                  "nodeLabel": "27\n\t\n28\n\t\n29\n\t\n30\n\t\n31\n\t\n1\n\t\n2"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 31
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-144-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,IMG",
+            "selector": "ul > li#mn5 > a > img",
+            "boundingRect": {
+              "top": 443,
+              "bottom": 461,
+              "left": 153,
+              "right": 260,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<img src=\"/sites/default/files/pics/globalcontent/SchoolVIewLogo2019black-v4.png\">",
+            "nodeLabel": "ul > li#mn5 > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-15-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div#mainnav2 > ul > li#mn5 > a",
+            "boundingRect": {
+              "top": 436,
+              "bottom": 473,
+              "left": 3,
+              "right": 409,
+              "width": 406,
+              "height": 37
+            },
+            "snippet": "<a href=\"/schoolview\">",
+            "nodeLabel": "div#mainnav2 > ul > li#mn5 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

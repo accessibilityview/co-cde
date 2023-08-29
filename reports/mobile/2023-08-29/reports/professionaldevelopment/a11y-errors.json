@@ -1,0 +1,1326 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-212-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,0,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 2084,
+              "bottom": 2100,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-30-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,0,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 2077,
+                    "bottom": 2107,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/sld-literacy-efrs\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout Equipped for Reading Success Summer 2022 (Online Course)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-213-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,1,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 2569,
+              "bottom": 2585,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-38-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,1,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 2562,
+                    "bottom": 2592,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/SLD-Evaluation\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout A Comprehensive Model for Specific Learning Disability Evaluat…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-214-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,2,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 3013,
+              "bottom": 3029,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-46-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,2,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 3006,
+                    "bottom": 3036,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/sld-supports-interventions\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout SLD Supports and Interventions: Using the Building Blocks of B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-215-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,3,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 3434,
+              "bottom": 3449,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-54-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,3,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 3427,
+                    "bottom": 3457,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/pd-apord\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout Assessing Preventing and Overcoming Reading Difficulties (Onli…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-216-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,4,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 3831,
+              "bottom": 3847,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-62-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,4,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 3824,
+                    "bottom": 3854,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/asd-ed-id-2023\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout ASD Educational Identification Training (Round 1)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-217-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,5,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,5,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 4207,
+              "bottom": 4222,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-70-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,5,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,5,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 4200,
+                    "bottom": 4230,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/KSR23\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout Back to School Kindergarten School Readiness for All KSR Conta…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-218-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,6,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 4610,
+              "bottom": 4625,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-78-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,6,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 4603,
+                    "bottom": 4633,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/asd-training-foundations-montrose\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout ASD Training: Foundations for Instruction (Montrose)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-219-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,7,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 5013,
+              "bottom": 5029,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-86-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,7,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 5006,
+                    "bottom": 5036,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/ECSEcop\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout Early Childhood Special Educator Community of Practice"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-220-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,8,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 5457,
+              "bottom": 5473,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-94-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,8,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,6,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 5450,
+                    "bottom": 5480,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/fba-bip-8week-course\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout 8-Week Online Course: Introduction to Functional Behavioral As…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-221-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,9,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,5,A,0,STRONG",
+            "selector": "div.row > div.col-sm-9 > a.btn > strong",
+            "boundingRect": {
+              "top": 5809,
+              "bottom": 5825,
+              "left": 23,
+              "right": 79,
+              "width": 56,
+              "height": 16
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-102-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,9,TR,0,TD,0,DIV,0,SPAN,1,DIV,2,DIV,5,A",
+                  "selector": "span.field-content > div.row > div.col-sm-9 > a.btn",
+                  "boundingRect": {
+                    "top": 5802,
+                    "bottom": 5832,
+                    "left": 12,
+                    "right": 90,
+                    "width": 78,
+                    "height": 30
+                  },
+                  "snippet": "<a href=\"/professionaldevelopment/detail/Sp-ed-evaluation-web-series\" class=\"btn btn-info btn-sm\">",
+                  "nodeLabel": "Learn More\nabout Special Education Evaluation Webinar Series"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-222-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,IMG",
+            "selector": "ul > li#mn5 > a > img",
+            "boundingRect": {
+              "top": 443,
+              "bottom": 461,
+              "left": 153,
+              "right": 260,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<img src=\"/sites/default/files/pics/globalcontent/SchoolVIewLogo2019black-v4.png\">",
+            "nodeLabel": "ul > li#mn5 > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-15-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div#mainnav2 > ul > li#mn5 > a",
+            "boundingRect": {
+              "top": 436,
+              "bottom": 473,
+              "left": 3,
+              "right": 409,
+              "width": 406,
+              "height": 37
+            },
+            "snippet": "<a href=\"/schoolview\">",
+            "nodeLabel": "div#mainnav2 > ul > li#mn5 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-23-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 1707,
+              "bottom": 1708,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/cdesped/sld-literacy-efrs\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-24-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,0,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 1728,
+              "bottom": 1728,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/sld-literacy-efrs\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-25-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,0,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 1728,
+              "bottom": 1728,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/sld-literacy-efrs\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-26-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,0,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 1768,
+              "bottom": 1786,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/cdesped/sld-literacy-efrs\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-31-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,1,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2127,
+              "bottom": 2128,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/cdesped/sld-evaluation\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-32-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,1,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 2148,
+              "bottom": 2148,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/sld-evaluation\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-33-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,1,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 2148,
+              "bottom": 2148,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/sld-evaluation\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-34-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,1,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 2188,
+              "bottom": 2207,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/cdesped/sld-evaluation\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-39-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,2,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2612,
+              "bottom": 2613,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/cdesped/sld-supports-interventions\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-40-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,2,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 2633,
+              "bottom": 2633,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/sld-supports-interventions\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-41-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,2,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 2633,
+              "bottom": 2633,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/sld-supports-interventions\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-42-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,2,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 2673,
+              "bottom": 2692,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/cdesped/sld-supports-interventions\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-47-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,3,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 3056,
+              "bottom": 3057,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/cdesped/pd-apord\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-48-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,3,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 3077,
+              "bottom": 3077,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/pd-apord\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-49-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,3,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 3077,
+              "bottom": 3077,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/pd-apord\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-50-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,3,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 3117,
+              "bottom": 3136,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/cdesped/pd-apord\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-55-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,4,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 3477,
+              "bottom": 3478,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/cdesped/asd-ed-id-aug-2023\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-56-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,4,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 3498,
+              "bottom": 3498,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/asd-ed-id-aug-2023\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-57-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,4,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 3498,
+              "bottom": 3498,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/asd-ed-id-aug-2023\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-58-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,4,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 3538,
+              "bottom": 3556,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/cdesped/asd-ed-id-aug-2023\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-63-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,5,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 3874,
+              "bottom": 3875,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/schoolreadiness/ksr23\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-64-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,5,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 3895,
+              "bottom": 3895,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/schoolreadiness/ksr23\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-65-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,5,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 3895,
+              "bottom": 3895,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/schoolreadiness/ksr23\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-66-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,5,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 3935,
+              "bottom": 3954,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/schoolreadiness/ksr23\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-71-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,6,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 4250,
+              "bottom": 4251,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/cdesped/asd-training-foundations-montrose\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-72-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,6,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 4271,
+              "bottom": 4271,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/asd-training-foundations-montrose\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-73-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,6,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 4271,
+              "bottom": 4271,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/asd-training-foundations-montrose\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-74-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,6,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 4311,
+              "bottom": 4329,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/cdesped/asd-training-foundations-montrose\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-79-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,7,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 4653,
+              "bottom": 4654,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/cdesped/ecsecop\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-80-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,7,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 4674,
+              "bottom": 4674,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/ecsecop\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-81-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,7,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 4674,
+              "bottom": 4674,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/ecsecop\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-82-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,7,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 4714,
+              "bottom": 4732,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/cdesped/ecsecop\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-87-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,8,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 5056,
+              "bottom": 5057,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/cdesped/fba-bip-8week-course\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-88-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,8,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 5077,
+              "bottom": 5077,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/fba-bip-8week-course\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-89-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,8,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 5077,
+              "bottom": 5077,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/fba-bip-8week-course\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-90-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,8,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 5117,
+              "bottom": 5135,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/cdesped/fba-bip-8week-course\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-95-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,9,TR,0,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td.col-first > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 5500,
+              "bottom": 5501,
+              "left": 12,
+              "right": 399,
+              "width": 387,
+              "height": 1
+            },
+            "snippet": "<a href=\"/cdesped/sp-ed-evaluation-web-series\">",
+            "nodeLabel": "td.col-first > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-96-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,9,TR,0,TD,0,DIV,0,SPAN,1,DIV,0,A",
+            "selector": "div.views-field > span.field-content > div.row > a",
+            "boundingRect": {
+              "top": 5521,
+              "bottom": 5521,
+              "left": -3,
+              "right": -3,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/sp-ed-evaluation-web-series\">",
+            "nodeLabel": "div.views-field > span.field-content > div.row > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-97-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,9,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,0,A",
+            "selector": "span.field-content > div.row > div.col-sm-2 > a",
+            "boundingRect": {
+              "top": 5521,
+              "bottom": 5521,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/cdesped/sp-ed-evaluation-web-series\">",
+            "nodeLabel": "span.field-content > div.row > div.col-sm-2 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-98-A",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,9,TR,0,TD,0,DIV,0,SPAN,1,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-2 > p > a",
+            "boundingRect": {
+              "top": 5561,
+              "bottom": 5579,
+              "left": 156,
+              "right": 156,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"/cdesped/sp-ed-evaluation-web-series\">",
+            "nodeLabel": "div.row > div.col-sm-2 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 41
+  }
+]

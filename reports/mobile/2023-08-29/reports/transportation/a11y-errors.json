@@ -1,0 +1,314 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-176-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,P,0,A,0,STRONG",
+            "selector": "div.col-sm-4 > p > a.btn > strong",
+            "boundingRect": {
+              "top": 1540,
+              "bottom": 1558,
+              "left": 137,
+              "right": 274,
+              "width": 137,
+              "height": 19
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "DISTRICT JOB LISTINGS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #ffffff, background color: #5cb85c, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-23-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,P,0,A",
+                  "selector": "div.row > div.col-sm-4 > p > a.btn",
+                  "boundingRect": {
+                    "top": 1532,
+                    "bottom": 1566,
+                    "left": 12,
+                    "right": 399,
+                    "width": 387,
+                    "height": 34
+                  },
+                  "snippet": "<a class=\"btn btn-success btn-block\" href=\"https://docs.google.com/document/d/1azGDhuWCsUPbeWKPuwxa3-Z1oILbldRnmtdwd1…\">",
+                  "nodeLabel": "DISTRICT JOB LISTINGS"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-177-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,1,DIV,0,P,0,A,0,STRONG",
+            "selector": "div.col-sm-4 > p > a.btn > strong",
+            "boundingRect": {
+              "top": 1584,
+              "bottom": 1602,
+              "left": 111,
+              "right": 300,
+              "width": 189,
+              "height": 19
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "CDE Certified Bus Manufacturers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #ffffff, background color: #5bc0de, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-24-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,1,DIV,0,P,0,A",
+                  "selector": "div.row > div.col-sm-4 > p > a.btn",
+                  "boundingRect": {
+                    "top": 1576,
+                    "bottom": 1610,
+                    "left": 12,
+                    "right": 399,
+                    "width": 387,
+                    "height": 34
+                  },
+                  "snippet": "<a class=\"btn btn-info btn-block\" href=\"https://docs.google.com/spreadsheets/d/1SqlUO2-28oR_j23JiV6n7yaz4OMpBOjeiJ…\">",
+                  "nodeLabel": "CDE Certified Bus Manufacturers"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-178-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,2,DIV,0,P,0,A,0,STRONG",
+            "selector": "div.col-sm-4 > p > a.btn > strong",
+            "boundingRect": {
+              "top": 1628,
+              "bottom": 1646,
+              "left": 180,
+              "right": 231,
+              "width": 51,
+              "height": 19
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "RECALLS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.96 (foreground color: #ffffff, background color: #d9534f, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-25-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,7,DIV,2,DIV,0,P,0,A",
+                  "selector": "div.row > div.col-sm-4 > p > a.btn",
+                  "boundingRect": {
+                    "top": 1620,
+                    "bottom": 1654,
+                    "left": 12,
+                    "right": 399,
+                    "width": 387,
+                    "height": 34
+                  },
+                  "snippet": "<a class=\"btn btn-danger btn-block\" href=\"https://docs.google.com/document/d/1ANIKwoWOc91LbIhLrwygCOVRMoDlXRrsN6g29C…\">",
+                  "nodeLabel": "RECALLS"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-179-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,11,P,0,A,0,STRONG",
+            "selector": "div.field-item > p > a.btn > strong",
+            "boundingRect": {
+              "top": 2123,
+              "bottom": 2142,
+              "left": 25,
+              "right": 120,
+              "width": 95,
+              "height": 19
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "NEWS BULLETIN",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.94 (foreground color: #ffffff, background color: #f0ad4e, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-29-A",
+                  "path": "1,HTML,1,BODY,0,DIV,3,DIV,0,DIV,0,SECTION,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,11,P,0,A",
+                  "selector": "div.field-items > div.field-item > p > a.btn",
+                  "boundingRect": {
+                    "top": 2116,
+                    "bottom": 2150,
+                    "left": 12,
+                    "right": 133,
+                    "width": 121,
+                    "height": 34
+                  },
+                  "snippet": "<a class=\"btn btn-warning\" href=\"/transportation/newsarchive\">",
+                  "nodeLabel": "NEWS BULLETIN"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-180-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,IMG",
+            "selector": "ul > li#mn5 > a > img",
+            "boundingRect": {
+              "top": 443,
+              "bottom": 461,
+              "left": 153,
+              "right": 260,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<img src=\"/sites/default/files/pics/globalcontent/SchoolVIewLogo2019black-v4.png\">",
+            "nodeLabel": "ul > li#mn5 > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-15-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div#mainnav2 > ul > li#mn5 > a",
+            "boundingRect": {
+              "top": 436,
+              "bottom": 473,
+              "left": 3,
+              "right": 409,
+              "width": 406,
+              "height": 37
+            },
+            "snippet": "<a href=\"/schoolview\">",
+            "nodeLabel": "div#mainnav2 > ul > li#mn5 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
