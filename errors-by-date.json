@@ -1,0 +1,14 @@
+[
+  {
+    "agency": "co-cde",
+    "date": "2023-08-28",
+    "lighthouseErrorCount": 2858,
+    "wcagErrorCount": 3868
+  },
+  {
+    "agency": "co-cde",
+    "date": "2023-08-29",
+    "lighthouseErrorCount": 3172,
+    "wcagErrorCount": 4390
+  }
+]
